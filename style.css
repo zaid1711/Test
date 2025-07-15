@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  color: #fff;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countdown-container h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.countdown-container p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#countdown {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.sub-msg {
+  margin-top: 20px;
+  font-style: italic;
+}
+.birthday-body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%);
+  color: #333;
+  text-align: center;
+}
+
+.birthday-container {
+  padding: 30px 20px;
+}
+
+.main-heading {
+  font-family: 'Pacifico', cursive;
+  font-size: 46px;
+  color: #ff4081;
+  margin: 30px 0 10px;
+}
+
+#typed-text {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.gallery {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.letter {
+  background: #fff0f6;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 600px;
+}
+
+.letter h2 {
+  margin-bottom: 10px;
+  color: #ff4081;
+}
+
+.letter p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.closing-msg {
+  margin: 40px 0;
+  font-style: italic;
+  color: #555;
+}
+
+#audio-toggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  padding: 10px 14px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  background: #ff4081;
+  color: #fff;
+  cursor: pointer;
+  z-index: 99;
+}
