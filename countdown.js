@@ -1,4 +1,4 @@
-const targetDate = new Date("July 15, 2025 22:18:00").getTime();
+const targetDate = new Date("July 15, 2025 22:24:00").getTime();
 const countdownEl = document.getElementById("countdown");
 
 const timer = setInterval(() => {
@@ -8,6 +8,7 @@ const timer = setInterval(() => {
   if (distance < 0) {
     clearInterval(timer);
     countdownEl.innerHTML = "🎉 It's time! 🎉";
+    window.location.href = "birthday.html";
     return;
   }
 
